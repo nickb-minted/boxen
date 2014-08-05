@@ -44,11 +44,6 @@ GITHUBTARBALL
     dash (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
-  specs:
-    dnsmasq (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-dockutil
   specs:
     dockutil (0.2.1)
@@ -57,6 +52,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dterm
   specs:
     dterm (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -144,9 +144,9 @@ GITHUBTARBALL
     macvim (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nginx
+  remote: boxen/puppet-mysql
   specs:
-    nginx (1.4.3)
+    mysql (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nmap
@@ -244,6 +244,11 @@ GITHUBTARBALL
     skype (1.0.8)
 
 GITHUBTARBALL
+  remote: boxen/puppet-slate
+  specs:
+    slate (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sourcetree
   specs:
     sourcetree (1.0.0)
@@ -281,7 +286,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.9)
+    virtualbox (1.0.13)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -299,11 +304,6 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-zsh
-  specs:
-    zsh (1.0.0)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.3)
@@ -319,68 +319,68 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  alfred (>= 0)
+  alfred (= 1.2.0)
   boxen (= 3.6.2)
-  charles (>= 0)
+  charles (= 1.0.4)
   chicken_of_the_vnc (= 0.1.3)
-  chrome (>= 0)
-  clipmenu (>= 0)
-  crashplan (>= 0)
-  cyberduck (>= 0)
-  dash (>= 0)
-  dnsmasq (= 1.0.1)
-  dockutil (>= 0)
-  dterm (>= 0)
-  firefox (>= 0)
-  flux (>= 0)
-  font_explorer_pro (>= 0)
+  chrome (= 1.1.2)
+  clipmenu (= 1.0.0)
+  crashplan (= 1.0.1)
+  cyberduck (= 1.0.1)
+  dash (= 1.0.0)
+  dockutil (= 0.2.1)
+  dterm (= 1.0.2)
+  emacs (= 1.3.0)
+  firefox (= 1.2.1)
+  flux (= 1.0.1)
+  font_explorer_pro (= 1.0.6)
   foreman (= 1.2.0)
-  forklift (>= 0)
+  forklift (= 1.0.8)
   gcc (= 2.1.1)
   git (= 2.5.0)
-  github_for_mac (>= 0)
-  gitx (>= 0)
-  hipchat (>= 0)
+  github_for_mac (= 1.0.3)
+  gitx (= 1.2.0)
+  hipchat (= 1.1.3)
   homebrew (= 1.9.4)
   hub (= 1.3.0)
-  induction (>= 0)
+  induction (= 1.0.0)
   inifile (= 1.0.3)
-  iterm2 (>= 0)
-  java (>= 0)
-  kindle (>= 0)
-  macvim (>= 0)
+  iterm2 (= 1.1.2)
+  java (= 1.6.0)
+  kindle (= 1.0.1)
+  macvim (= 1.0.0)
   module_data (= 0.0.3)
-  nginx (= 1.4.3)
-  nmap (>= 0)
+  mysql (= 1.2.1)
+  nmap (= 1.0.3)
   nodejs (= 3.8.1)
-  onyx (>= 0)
-  open_refine (>= 0)
+  onyx (= 1.2.0)
+  open_refine (= 1.0.0)
   openssl (= 1.0.0)
-  osx (>= 0)
+  osx (= 2.7.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
-  property_list_key (>= 0)
-  python (>= 0)
-  quicksilver (>= 0)
-  reggy (>= 0)
+  property_list_key (= 0.1.0)
+  python (= 1.3.0)
+  quicksilver (= 1.3.0)
+  reggy (= 1.0.2)
   repository (= 2.3.0)
   ruby (= 8.1.2)
-  sequel_pro (>= 0)
-  shortcat (>= 0)
-  silverlight (>= 0)
-  skitch (>= 0)
-  skype (>= 0)
-  sourcetree (>= 0)
+  sequel_pro (= 1.0.1)
+  shortcat (= 1.0.6)
+  silverlight (= 1.0.1)
+  skitch (= 1.0.2)
+  skype (= 1.0.8)
+  slate (= 1.0.1)
+  sourcetree (= 1.0.0)
   stdlib (= 4.2.1)
-  sublime_text (>= 0)
+  sublime_text (= 1.0.1)
   sudo (= 1.0.0)
-  tmux (>= 0)
-  tower (>= 0)
-  tunnelblick (>= 0)
-  vagrant (>= 0)
-  virtualbox (>= 0)
-  vlc (>= 0)
-  wget (>= 0)
+  tmux (= 1.0.2)
+  tower (= 1.0.0)
+  tunnelblick (= 1.0.6)
+  vagrant (= 3.1.1)
+  virtualbox (= 1.0.13)
+  vlc (= 1.1.0)
+  wget (= 1.0.1)
   xquartz (= 1.1.1)
-  zsh (>= 0)
 

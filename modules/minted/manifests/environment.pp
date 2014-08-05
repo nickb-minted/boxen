@@ -10,126 +10,122 @@ class minted::environment {
   }
 
   include alfred
-  add_application_to_dock{'Alfred'}
+  add_application_to_dock{'Alfred 2':}
 
   include charles
-  add_application_to_dock{'Charles'}
 
   include chicken_of_the_vnc
-  add_application_to_dock{'Chicken'}
+  add_application_to_dock{'Chicken':}
 
   include chrome
-  add_application_to_dock{'Google Chrome'}
+  add_application_to_dock{'Google Chrome':}
 
   include clipmenu
-  add_application_to_dock{'ClipMenu'}
+  add_application_to_dock{'ClipMenu':}
 
   include crashplan
-  add_application_to_dock{'CrashPlan'}
 
   include cyberduck
-  add_application_to_dock{'CyberDuck'}
+  add_application_to_dock{'CyberDuck':}
 
   include dash
-  add_application_to_dock{'Dash'}
+  add_application_to_dock{'Dash':}
 
   include dockutil
 
   include dterm
-  add_application_to_dock{'DTerm'}
+
+  include emacs
+  add_application_to_dock{'Emacs':}
 
   include firefox
-  add_application_to_dock{'Firefox'}
+  add_application_to_dock{'Firefox':}
 
   include flux
-  add_application_to_dock{'Flux'}
 
   include font_explorer_pro
-  add_application_to_dock{'FontExplorer X Pro'}
+  add_application_to_dock{'FontExplorer X Pro':}
 
   include forklift
-  add_application_to_dock{'Forklift'}
+  add_application_to_dock{'Forklift':}
 
   include github_for_mac
-  add_application_to_dock{'GitHub'}
+  add_application_to_dock{'GitHub':}
 
   include gitx
-  add_application_to_dock{'GitX'}
+  add_application_to_dock{'GitX':}
 
   include hipchat
-  add_application_to_dock{'HipChat'}
+  add_application_to_dock{'HipChat':}
 
   include induction
-  add_application_to_dock{'Induction'}
+  add_application_to_dock{'Induction':}
 
   include iterm2::stable
   include iterm2::colors::solarized_light
   include iterm2::colors::solarized_dark
-  add_application_to_dock{'iTerm'}
+  add_application_to_dock{'iTerm':}
 
   include java
 
   include kindle
-  add_application_to_dock{'Kindle'}
 
   include macvim
-  add_application_to_dock{'MacVim'} #needs Exec[brew linkapps]
+  add_application_to_dock{'MacVim':} #needs Exec[brew linkapps]
+  exec{'brew linkapps':}
 
   include nmap
 
   include onyx
-  add_application_to_dock{'Onyx'}
 
   include open_refine
-  add_application_to_dock{'Google Refine'}
 
   include python
 
   include quicksilver
-  add_application_to_dock{'QuickSilver'}
+  add_application_to_dock{'QuickSilver':}
 
   include reggy
-  add_application_to_dock{'Reggy'}
+  add_application_to_dock{'Reggy':}
 
   include sequel_pro
-  add_application_to_dock{'Sequel Pro'}
+  add_application_to_dock{'Sequel Pro':}
 
   include shortcat
-  add_application_to_dock{'Shortcat'}
 
   include silverlight
 
   include skitch
-  add_application_to_dock{'Skitch'}
+  add_application_to_dock{'Skitch':}
 
   include skype
-  add_application_to_dock{'Skype'}
+  add_application_to_dock{'Skype':}
+
+  include slate
+  add_application_to_dock{'Slate':}
 
   include sourcetree
-  add_application_to_dock{'SourceTree'}
+  add_application_to_dock{'SourceTree':}
 
   include sublime_text
-  add_application_to_dock{'Sublime Text'}
+  add_application_to_dock{'Sublime Text':}
 
   include tmux
 
   include tower
-  add_application_to_dock{'Tower'}
+  add_application_to_dock{'Tower':}
 
   include tunnelblick
-  add_application_to_dock{'Tunnelblick'}
+  add_application_to_dock{'Tunnelblick':}
 
   include vagrant
 
   include virtualbox
-  add_application_to_dock{'VirtualBox'}
+  add_application_to_dock{'VirtualBox':}
 
   include vlc
-  add_application_to_dock{'VLC'}
 
   include wget
-
-  include zsh
 
   dockutil::item { "Add Activity Monitor":
     item => '/Applications/Utilities/Activity Monitor.app/',
@@ -196,5 +192,9 @@ class minted::environment {
   class { 'osx::global::natural_mouse_scrolling': enabled => false }
   class { 'osx::universal_access::cursor_size': zoom => 1 }
   class { 'osx::dock::icon_size': size => 20 }
+
+  # Projects
+  include projects::puppet
+  include projects::minted
 
 }
