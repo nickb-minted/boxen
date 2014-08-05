@@ -1,7 +1,47 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.6.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-charles
+  specs:
+    charles (1.0.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chicken_of_the_vnc
+  specs:
+    chicken_of_the_vnc (0.1.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-clipmenu
+  specs:
+    clipmenu (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-crashplan
+  specs:
+    crashplan (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-cyberduck
+  specs:
+    cyberduck (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dash
+  specs:
+    dash (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -9,9 +49,39 @@ GITHUBTARBALL
     dnsmasq (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dockutil
+  specs:
+    dockutil (0.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dterm
+  specs:
+    dterm (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-font_explorer_pro
+  specs:
+    font_explorer_pro (1.0.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-forklift
+  specs:
+    forklift (1.0.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -24,9 +94,19 @@ GITHUBTARBALL
     git (2.5.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-go
+  remote: boxen/puppet-github_for_mac
   specs:
-    go (1.1.0)
+    github_for_mac (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-gitx
+  specs:
+    gitx (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-hipchat
+  specs:
+    hipchat (1.1.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -39,9 +119,39 @@ GITHUBTARBALL
     hub (1.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-induction
+  specs:
+    induction (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.6.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-kindle
+  specs:
+    kindle (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-nmap
+  specs:
+    nmap (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -49,9 +159,24 @@ GITHUBTARBALL
     nodejs (3.8.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-onyx
+  specs:
+    onyx (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-open_refine
+  specs:
+    open_refine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -64,6 +189,26 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.3.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-quicksilver
+  specs:
+    quicksilver (1.3.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-reggy
+  specs:
+    reggy (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.3.0)
@@ -74,14 +219,89 @@ GITHUBTARBALL
     ruby (8.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sequel_pro
+  specs:
+    sequel_pro (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-shortcat
+  specs:
+    shortcat (1.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-silverlight
+  specs:
+    silverlight (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skitch
+  specs:
+    skitch (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.8)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sourcetree
+  specs:
+    sourcetree (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text
+  specs:
+    sublime_text (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-tower
+  specs:
+    tower (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-tunnelblick
+  specs:
+    tunnelblick (1.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -99,24 +319,68 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  alfred (>= 0)
   boxen (= 3.6.2)
+  charles (>= 0)
+  chicken_of_the_vnc (= 0.1.3)
+  chrome (>= 0)
+  clipmenu (>= 0)
+  crashplan (>= 0)
+  cyberduck (>= 0)
+  dash (>= 0)
   dnsmasq (= 1.0.1)
+  dockutil (>= 0)
+  dterm (>= 0)
+  firefox (>= 0)
+  flux (>= 0)
+  font_explorer_pro (>= 0)
   foreman (= 1.2.0)
+  forklift (>= 0)
   gcc (= 2.1.1)
   git (= 2.5.0)
-  go (= 1.1.0)
+  github_for_mac (>= 0)
+  gitx (>= 0)
+  hipchat (>= 0)
   homebrew (= 1.9.4)
   hub (= 1.3.0)
+  induction (>= 0)
   inifile (= 1.0.3)
+  iterm2 (>= 0)
+  java (>= 0)
+  kindle (>= 0)
+  macvim (>= 0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
+  nmap (>= 0)
   nodejs (= 3.8.1)
+  onyx (>= 0)
+  open_refine (>= 0)
   openssl (= 1.0.0)
+  osx (>= 0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  property_list_key (>= 0)
+  python (>= 0)
+  quicksilver (>= 0)
+  reggy (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.2)
+  sequel_pro (>= 0)
+  shortcat (>= 0)
+  silverlight (>= 0)
+  skitch (>= 0)
+  skype (>= 0)
+  sourcetree (>= 0)
   stdlib (= 4.2.1)
+  sublime_text (>= 0)
   sudo (= 1.0.0)
+  tmux (>= 0)
+  tower (>= 0)
+  tunnelblick (>= 0)
+  vagrant (>= 0)
+  virtualbox (>= 0)
+  vlc (>= 0)
+  wget (>= 0)
   xquartz (= 1.1.1)
+  zsh (>= 0)
 
