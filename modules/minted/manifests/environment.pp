@@ -1,12 +1,26 @@
 class minted::environment {
 
   define add_application_to_dock() {
+
     include dockutil
-    dockutil::item { "Add ${name}":
-      item => "/Applications/${name}.app/",
-      label => "${name}",
-      action => "add"
+
+    # We touch a file in /var/db/ when adding a dock icon, and use a custom
+    # fact to check for the presence of these. This way, we avoid re-adding
+    # deleted dock icons on subsequent puppet runs.
+    unless member( $dockicons_created, $name ) {
+
+      dockutil::item { "Add ${name}":
+        item => "/Applications/${name}.app/",
+        label => "${name}",
+        action => "add"
+      }
+
+      file { "/var/db/.puppet_dockicon_created_${name}":
+        ensure => 'present'
+      }
+
     }
+
   }
 
   include alfred
