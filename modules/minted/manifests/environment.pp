@@ -7,7 +7,10 @@ class minted::environment {
     # We touch a file in /var/db/ when adding a dock icon, and use a custom
     # fact to check for the presence of these. This way, we avoid re-adding
     # deleted dock icons on subsequent puppet runs.
-    unless member( $dockicons_created, $name ) {
+    
+    $dockicons_created_ary = split( $dockicons_created_ary, ',' )
+
+    unless member( $dockicons_created_ary, $name ) {
 
       dockutil::item { "Add ${name}":
         item => "/Applications/${name}.app/",
