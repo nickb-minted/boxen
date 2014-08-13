@@ -8,7 +8,7 @@ class minted::environment {
     # fact to check for the presence of these. This way, we avoid re-adding
     # deleted dock icons on subsequent puppet runs.
     
-    $dockicons_created_ary = split( $dockicons_created_ary, ',' )
+    $dockicons_created_ary = split( $dockicons_created, ',' )
 
     unless member( $dockicons_created_ary, $name ) {
 
