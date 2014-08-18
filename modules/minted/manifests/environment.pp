@@ -1,33 +1,34 @@
 class minted::environment {
 
+  Package <| |> -> Add_application_to_dock <| |>
+
   define add_application_to_dock() {
-
     include dockutil
-
     # We touch a file in /var/db/ when adding a dock icon, and use a custom
     # fact to check for the presence of these. This way, we avoid re-adding
     # deleted dock icons on subsequent puppet runs.
-    
     $dockicons_created_ary = split( $dockicons_created, ',' )
-
     unless member( $dockicons_created_ary, $name ) {
-
       dockutil::item { "Add ${name}":
         item => "/Applications/${name}.app/",
         label => "${name}",
         action => "add"
       }
-
       file { "/var/db/.puppet_dockicon_created_${name}":
         ensure => 'present'
       }
-
     }
-
   }
 
+  # Applications and dock icons
   include alfred
   add_application_to_dock{'Alfred 2':}
+
+  include atom
+  add_application_to_dock{'Atom':}
+
+  include better_touch_tools
+  add_application_to_dock{'BetterTouchTool':}
 
   include charles
 
@@ -48,20 +49,24 @@ class minted::environment {
   include dash
   add_application_to_dock{'Dash':}
 
+  include divvy
+  add_application_to_dock{'Divvy':}
+
   include dockutil
+
+  include dropbox
 
   include dterm
 
   include emacs
-  add_application_to_dock{'Emacs':}
+  add_application_to_dock { 'Emacs':
+    notify => Exec[brew linkapps]
+  }
 
   include firefox
   add_application_to_dock{'Firefox':}
 
   include flux
-
-  include font_explorer_pro
-  add_application_to_dock{'FontExplorer X Pro':}
 
   include forklift
   add_application_to_dock{'Forklift':}
@@ -85,11 +90,14 @@ class minted::environment {
 
   include java
 
+  include jmeter
+
   include kindle
 
   include macvim
-  add_application_to_dock{'MacVim':} #needs Exec[brew linkapps]
-  exec{'brew linkapps':}
+  add_application_to_dock { 'MacVim':
+    notify => Exec[brew linkapps]
+  }
 
   include nmap
 
@@ -150,13 +158,18 @@ class minted::environment {
     action => "add"
   }
 
+  # Symlink homebrew installed cocoa apps into /Applications
+  exec { 'brew linkapps':
+    refreshonly => true
+  }
+
   sublime_text::package { 'Package Control':
     source => 'wbond/sublime_package_control'
   }
 
-  #sublime_text::package { 'CloudFormation':
-  #  source => 'minted/cloud-formation-sublime-snippets'
-  #}
+  sublime_text::package { 'CloudFormation':
+   source => 'minted/cloud-formation-sublime-snippets'
+  }
 
   sublime_text::package { 'puppet syntax':
     source => 'eklein/sublime-text-puppet'
@@ -205,13 +218,13 @@ class minted::environment {
   include osx::mouse::smart_zoom
   include osx::mouse::swipe_between_pages
   class { 'osx::global::key_repeat_delay': delay => 10 }
-  class { 'osx::global::key_repeat_rate': rate => 0.02 }
+  class { 'osx::global::key_repeat_rate': rate => 2 }
   class { 'osx::global::natural_mouse_scrolling': enabled => false }
   class { 'osx::universal_access::cursor_size': zoom => 1 }
   class { 'osx::dock::icon_size': size => 20 }
 
   # Projects
   include projects::puppet
-  include projects::minted
+  # include projects::minted # some day.. :'(
 
 }
