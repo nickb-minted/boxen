@@ -27,9 +27,6 @@ class minted::environment {
   include atom
   add_application_to_dock{'Atom':}
 
-  include better_touch_tools
-  add_application_to_dock{'BetterTouchTool':}
-
   include charles
 
   include chicken_of_the_vnc
@@ -60,7 +57,7 @@ class minted::environment {
 
   include emacs
   add_application_to_dock { 'Emacs':
-    notify => Exec[brew linkapps]
+    notify => Exec['brew linkapps']
   }
 
   include firefox
@@ -96,7 +93,7 @@ class minted::environment {
 
   include macvim
   add_application_to_dock { 'MacVim':
-    notify => Exec[brew linkapps]
+    notify => Exec['brew linkapps']
   }
 
   include nmap

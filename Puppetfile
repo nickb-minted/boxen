@@ -57,7 +57,6 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 github 'alfred',      '1.3.0'
 github 'atom',        '1.0.0'
-github 'better_touch_tools', '2.0.0'
 github 'charles',     '1.0.4'
 github 'chicken_of_the_vnc', '0.1.3'
 github 'chrome',      '1.1.2'
