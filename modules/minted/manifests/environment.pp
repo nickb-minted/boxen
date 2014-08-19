@@ -1,7 +1,5 @@
 class minted::environment {
 
-  Package <| |> -> Add_application_to_dock <| |>
-
   define add_application_to_dock() {
     include dockutil
     # We touch a file in /var/db/ when adding a dock icon, and use a custom
@@ -21,8 +19,10 @@ class minted::environment {
   }
 
   # Applications and dock icons
-  include alfred
-  add_application_to_dock{'Alfred 2':}
+
+  # currently zip file download is not working and breaking the puppet run
+  #include alfred
+  #add_application_to_dock{'Alfred 2':}
 
   include atom
   add_application_to_dock{'Atom':}
