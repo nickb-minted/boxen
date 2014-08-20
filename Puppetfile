@@ -55,7 +55,7 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github 'alfred',      '1.3.0'
+github 'alfred',      '1.3.1'
 github 'atom',        '1.0.0'
 github 'charles',     '1.0.4'
 github 'chicken_of_the_vnc', '0.1.3'
@@ -66,10 +66,10 @@ github 'cyberduck',   '1.0.1'
 github 'dash',        '1.0.0'
 github 'divvy',       '1.0.1'
 github 'dockutil',    '0.2.1'
-github 'dropbox',     '1.3.0'
+github 'dropbox',     '1.4.0'
 github 'dterm',       '1.0.2'
 github 'emacs',       '1.3.0'
-github 'firefox',     '1.2.1'
+github 'firefox',     '1.2.2'
 github 'flux',        '1.0.1'
 github 'forklift',    '1.0.8'
 github 'github_for_mac', '1.0.3'

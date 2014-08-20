@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
-    alfred (1.3.0)
+    alfred (1.3.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-atom
@@ -61,7 +61,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.3.0)
+    dropbox (1.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dterm
@@ -76,7 +76,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.2.1)
+    firefox (1.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-flux
@@ -334,7 +334,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  alfred (= 1.3.0)
+  alfred (= 1.3.1)
   atom (= 1.0.0)
   boxen (= 3.6.2)
   charles (= 1.0.4)
@@ -346,10 +346,10 @@ DEPENDENCIES
   dash (= 1.0.0)
   divvy (= 1.0.1)
   dockutil (= 0.2.1)
-  dropbox (= 1.3.0)
+  dropbox (= 1.4.0)
   dterm (= 1.0.2)
   emacs (= 1.3.0)
-  firefox (= 1.2.1)
+  firefox (= 1.2.2)
   flux (= 1.0.1)
   foreman (= 1.2.0)
   forklift (= 1.0.8)

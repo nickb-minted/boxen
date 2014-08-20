@@ -20,9 +20,8 @@ class minted::environment {
 
   # Applications and dock icons
 
-  # currently zip file download is not working and breaking the puppet run
-  #include alfred
-  #add_application_to_dock{'Alfred 2':}
+  include alfred
+  add_application_to_dock{'Alfred 2':}
 
   include atom
   add_application_to_dock{'Atom':}
@@ -194,6 +193,10 @@ class minted::environment {
 
   sublime_text::package { 'SublimeBlockCursor':
     source => 'netpro2k/SublimeBlockCursor'
+  }
+
+  sublime_text::package { 'SublimePrettyJson':
+    source => 'dzhibas/SublimePrettyJson'
   }
 
   # osx settings
