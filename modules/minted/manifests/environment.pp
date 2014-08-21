@@ -79,6 +79,8 @@ class minted::environment {
   include induction
   add_application_to_dock{'Induction':}
 
+  Class['iterm2::stable'] -> Class['iterm2::colors::solarized_dark']
+  Class['iterm2::stable'] -> Class['iterm2::colors::solarized_light']
   include iterm2::stable
   include iterm2::colors::solarized_light
   include iterm2::colors::solarized_dark
@@ -159,7 +161,8 @@ class minted::environment {
 
   # Symlink homebrew installed cocoa apps into /Applications
   exec { 'brew linkapps':
-    refreshonly => true
+    refreshonly => true,
+    require => Class['homebrew']
   }
 
   sublime_text::package { 'Package Control':
