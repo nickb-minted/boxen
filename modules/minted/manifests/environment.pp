@@ -114,8 +114,6 @@ class minted::environment {
   include sequel_pro
   add_application_to_dock{'Sequel Pro':}
 
-  include shortcat
-
   include silverlight
 
   include skitch
@@ -162,7 +160,7 @@ class minted::environment {
   # Symlink homebrew installed cocoa apps into /Applications
   exec { 'brew linkapps':
     refreshonly => true,
-    require => Class['homebrew']
+    require => Class['homebrew::repo']
   }
 
   sublime_text::package { 'Package Control':
