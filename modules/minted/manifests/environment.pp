@@ -128,6 +128,9 @@ class minted::environment {
   include sourcetree
   add_application_to_dock{'SourceTree':}
 
+  include spotify
+  add_application_to_dock{'Spotify':}
+
   include sublime_text
   add_application_to_dock{'Sublime Text':}
 
