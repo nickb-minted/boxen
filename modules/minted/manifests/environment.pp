@@ -203,6 +203,10 @@ class minted::environment {
     source => 'dzhibas/SublimePrettyJson'
   }
 
+  sublime_text::package { 'Surround':
+    source => 'jcartledge/sublime-surround'
+  }
+
   # osx settings
   include osx::global::enable_keyboard_control_access
   include osx::global::expand_print_dialog
