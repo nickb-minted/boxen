@@ -1,6 +1,16 @@
 # Create a githubusername.pp
+# Important: if your GitHub username has a dash "-", change it to an
+# underscore in the filename and class definition!
+
+class people::username_minted {
+  $home     = "/Users/${::boxen_user}"
+
+  # change default shell to zsh with oh-my-zsh
+  include zsh
+  include ohmyzsh
 
   # osx settings - see https://github.com/boxen/puppet-osx for more
+  include osx::dock::icon_size
   # include osx::global::enable_keyboard_control_access
   # include osx::global::expand_print_dialog
   # include osx::global::expand_save_dialog
@@ -63,3 +73,4 @@
   sublime_text::package { 'Surround':
     source => 'jcartledge/sublime-surround'
   }
+}
