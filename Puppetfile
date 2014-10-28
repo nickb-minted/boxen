@@ -28,7 +28,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.6.2"
+github "boxen", "3.7.0"
 
 # Support for default hiera data in modules
 
@@ -37,21 +37,24 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "dnsmasq",     "2.0.0"
 github "foreman",     "1.2.0"
-github "gcc",         "2.1.1"
+github "gcc",         "2.2.0"
 github "git",         "2.5.0"
-github "homebrew",    "1.9.4"
+github "go",          "1.1.0"
+github "homebrew",    "1.9.6"
 github "hub",         "1.3.0"
-github "inifile",     "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
+github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
+github "nginx",       "1.4.3"
 github "nodejs",      "3.8.1"
 github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.2"
+github "ruby",        "8.1.4"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
-github "xquartz",     "1.1.1"
+github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -62,7 +65,6 @@ github 'chicken_of_the_vnc', '0.1.3'
 github 'chrome',      '1.1.2'
 github 'clipmenu',    '1.0.0'
 github 'crashplan',   '1.0.1'
-github 'cyberduck',   '1.0.1'
 github 'dash',        '1.0.0'
 github 'divvy',       '1.0.1'
 github 'dockutil',    '0.2.1'
@@ -77,9 +79,8 @@ github 'gitx',        '1.2.0'
 github 'hipchat',     '1.1.3'
 github 'induction',   '1.0.0'
 github 'iterm2',      '1.1.2'
-github 'java',        '1.6.0'
+github 'java',        '1.7.1'
 github 'jmeter',      '0.1.4'
-github 'kindle',      '1.0.1'
 github 'macvim',      '1.0.0'
 github 'mysql',       '1.2.1'
 github 'nmap',        '1.0.3'
@@ -87,7 +88,6 @@ github 'onyx',        '1.2.0'
 github 'open_refine', '1.0.0'
 github 'osx',         '2.7.0'
 github 'property_list_key', '0.1.0'
-github 'python',      '1.3.0'
 github 'quicksilver', '1.3.0'
 github 'reggy',       '1.0.2'
 github 'sequel_pro',  '1.0.1'
@@ -96,7 +96,6 @@ github 'skitch',      '1.0.2'
 github 'skype',       '1.0.9'
 github 'slate',       '1.0.1'
 github 'sourcetree',  '1.0.0'
-github 'spotify',     '1.0.2'
 github 'sublime_text','1.0.1'
 github 'tmux',        '1.0.2'
 github 'tower',       '1.0.0'

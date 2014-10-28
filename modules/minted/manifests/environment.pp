@@ -31,7 +31,6 @@ class minted::environment {
   install_application{'chrome': dockicon => 'Google Chrome'}
   install_application{'clipmenu': dockicon => 'ClipMenu'}
   install_application{'crashplan':}
-  install_application{'cyberduck': dockicon => 'CyberDuck'}
   install_application{'dash': dockicon => 'Dash'}
   install_application{'divvy': dockicon => 'Divvy'}
   install_application{'dockutil':}
@@ -48,12 +47,10 @@ class minted::environment {
   install_application{'iterm2::stable': dockicon => 'iTerm'}
   install_application{'java':}
   install_application{'jmeter':}
-  install_application{'kindle':}
   install_application{'macvim': dockicon =>'MacVim', notify => Exec['brew linkapps'] }
   install_application{'nmap':}
   install_application{'onyx':}
   install_application{'open_refine':}
-  install_application{'python':}
   install_application{'quicksilver': dockicon => 'QuickSilver'}
   install_application{'reggy': dockicon => 'Reggy'}
   install_application{'sequel_pro': dockicon => 'Sequel Pro'}
@@ -62,7 +59,6 @@ class minted::environment {
   install_application{'skype': dockicon => 'Skype'}
   install_application{'slate': dockicon => 'Slate'}
   install_application{'sourcetree': dockicon => 'SourceTree'}
-  install_application{'spotify': dockicon => 'Spotify'}
   install_application{'sublime_text': dockicon => 'Sublime Text'}
   install_application{'tmux':}
   install_application{'tower': dockicon => 'Tower'}
