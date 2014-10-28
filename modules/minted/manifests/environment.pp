@@ -62,7 +62,6 @@ class minted::environment {
   install_application{'skype': dockicon => 'Skype'}
   install_application{'slate': dockicon => 'Slate'}
   install_application{'sourcetree': dockicon => 'SourceTree'}
-  install_application{'spotify': dockicon => 'Spotify'}
   install_application{'sublime_text': dockicon => 'Sublime Text'}
   install_application{'tmux':}
   install_application{'tower': dockicon => 'Tower'}
