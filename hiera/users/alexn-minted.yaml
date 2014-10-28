@@ -1,0 +1,3 @@
+---
+osx::dock::icon_size::size: 50
+osx::global::natural_mouse_scrolling::enabled: true
