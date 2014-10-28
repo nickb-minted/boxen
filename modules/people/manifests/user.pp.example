@@ -29,48 +29,8 @@ class people::username_minted {
   # include osx::mouse::smart_zoom
   # include osx::mouse::swipe_between_pages
 
-  # sublime text packages and themes
-  sublime_text::package { 'Package Control':
-    source => 'wbond/sublime_package_control'
-  }
-
-  sublime_text::package { 'CloudFormation':
-   source => 'minted/cloud-formation-sublime-snippets'
-  }
-
-  sublime_text::package { 'puppet syntax':
-    source => 'eklein/sublime-text-puppet'
-  }
-
-  sublime_text::package { 'SublimeLinter-pep8':
-    source => 'SublimeLinter/SublimeLinter-pep8'
-  }
-
-  sublime_text::package { 'SublimeLinter-jshint':
-    source => 'SublimeLinter/SublimeLinter-jshint'
-  }
-
-  sublime_text::package { 'SublimeLinter-pylint':
-    source => 'SublimeLinter/SublimeLinter-pylint'
-  }
-
-  sublime_text::package { 'SublimeAutoPEP8':
-    source => 'wistful/SublimeAutoPEP8'
-  }
-
-  sublime_text::package { 'ApacheConf':
-    source => 'colinta/ApacheConf.tmLanguage'
-  }
-
-  sublime_text::package { 'SublimeBlockCursor':
-    source => 'netpro2k/SublimeBlockCursor'
-  }
-
-  sublime_text::package { 'SublimePrettyJson':
-    source => 'dzhibas/SublimePrettyJson'
-  }
-
-  sublime_text::package { 'Surround':
-    source => 'jcartledge/sublime-surround'
-  }
+  # Example Sublime Text module
+  # sublime_text::package { 'Surround':
+  #   source => 'jcartledge/sublime-surround'
+  # }
 }
