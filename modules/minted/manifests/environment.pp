@@ -31,7 +31,6 @@ class minted::environment {
   install_application{'chrome': dockicon => 'Google Chrome'}
   install_application{'clipmenu': dockicon => 'ClipMenu'}
   install_application{'crashplan':}
-  install_application{'cyberduck': dockicon => 'CyberDuck'}
   install_application{'dash': dockicon => 'Dash'}
   install_application{'divvy': dockicon => 'Divvy'}
   install_application{'dockutil':}
@@ -48,7 +47,6 @@ class minted::environment {
   install_application{'iterm2::stable': dockicon => 'iTerm'}
   install_application{'java':}
   install_application{'jmeter':}
-  install_application{'kindle':}
   install_application{'macvim': dockicon =>'MacVim', notify => Exec['brew linkapps'] }
   install_application{'nmap':}
   install_application{'onyx':}

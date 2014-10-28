@@ -39,11 +39,6 @@ GITHUBTARBALL
     crashplan (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-cyberduck
-  specs:
-    cyberduck (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-dash
   specs:
     dash (1.0.0)
@@ -157,11 +152,6 @@ GITHUBTARBALL
   remote: boxen/puppet-jmeter
   specs:
     jmeter (0.1.4)
-
-GITHUBTARBALL
-  remote: boxen/puppet-kindle
-  specs:
-    kindle (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -347,7 +337,6 @@ DEPENDENCIES
   chrome (= 1.1.2)
   clipmenu (= 1.0.0)
   crashplan (= 1.0.1)
-  cyberduck (= 1.0.1)
   dash (= 1.0.0)
   divvy (= 1.0.1)
   dnsmasq (= 2.0.0)
@@ -372,7 +361,6 @@ DEPENDENCIES
   iterm2 (= 1.1.2)
   java (= 1.7.1)
   jmeter (= 0.1.4)
-  kindle (= 1.0.1)
   macvim (= 1.0.0)
   module_data (= 0.0.3)
   mysql (= 1.2.1)
