@@ -42,7 +42,7 @@ github "foreman",     "1.2.0"
 github "gcc",         "2.2.0"
 github "git",         "2.5.0"
 github "go",          "1.1.0"
-github "homebrew",    "1.9.5"
+github "homebrew",    "1.9.6"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.3"
@@ -80,7 +80,7 @@ github 'gitx',        '1.2.0'
 github 'hipchat',     '1.1.3'
 github 'induction',   '1.0.0'
 github 'iterm2',      '1.1.2'
-github 'java',        '1.6.0'
+github 'java',        '1.7.1'
 github 'jmeter',      '0.1.4'
 github 'kindle',      '1.0.1'
 github 'macvim',      '1.0.0'
@@ -90,7 +90,6 @@ github 'onyx',        '1.2.0'
 github 'open_refine', '1.0.0'
 github 'osx',         '2.7.0'
 github 'property_list_key', '0.1.0'
-github 'python',      '1.3.0'
 github 'quicksilver', '1.3.0'
 github 'reggy',       '1.0.2'
 github 'sequel_pro',  '1.0.1'

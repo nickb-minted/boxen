@@ -53,7 +53,6 @@ class minted::environment {
   install_application{'nmap':}
   install_application{'onyx':}
   install_application{'open_refine':}
-  install_application{'python':}
   install_application{'quicksilver': dockicon => 'QuickSilver'}
   install_application{'reggy': dockicon => 'Reggy'}
   install_application{'sequel_pro': dockicon => 'Sequel Pro'}
