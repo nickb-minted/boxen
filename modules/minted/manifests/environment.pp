@@ -36,7 +36,6 @@ class minted::environment {
   install_application{'dockutil':}
   install_application{'dropbox':}
   install_application{'dterm':}
-  install_application{'emacs': dockicon => 'Emacs', notify => Exec['brew linkapps'] }
   install_application{'firefox': dockicon => 'Firefox'}
   install_application{'flux':}
   install_application{'forklift': dockicon => 'Forklift'}
@@ -85,6 +84,8 @@ class minted::environment {
     require => Class['homebrew::repo']
   }
 
+  # SublimeText modules
+  # sublime text packages and themes
   sublime_text::package { 'Package Control':
     source => 'wbond/sublime_package_control'
   }
@@ -128,30 +129,6 @@ class minted::environment {
   sublime_text::package { 'Surround':
     source => 'jcartledge/sublime-surround'
   }
-
-  # osx settings
-  include osx::global::enable_keyboard_control_access
-  include osx::global::expand_print_dialog
-  include osx::global::expand_save_dialog
-  include osx::global::disable_remote_control_ir_receiver
-  include osx::global::disable_autocorrect
-  include osx::dock::dim_hidden_apps
-  include osx::finder::show_external_hard_drives_on_desktop
-  include osx::finder::show_hard_drives_on_desktop
-  include osx::finder::show_mounted_servers_on_desktop
-  include osx::finder::show_removable_media_on_desktop
-  include osx::finder::unhide_library
-  include osx::finder::enable_quicklook_text_selection
-  include osx::universal_access::ctrl_mod_zoom
-  include osx::no_network_dsstores
-  include osx::keyboard::capslock_to_control
-  include osx::mouse::smart_zoom
-  include osx::mouse::swipe_between_pages
-  class { 'osx::global::key_repeat_delay': delay => 10 }
-  class { 'osx::global::key_repeat_rate': rate => 2 }
-  class { 'osx::global::natural_mouse_scrolling': enabled => false }
-  class { 'osx::universal_access::cursor_size': zoom => 1 }
-  class { 'osx::dock::icon_size': size => 20 }
 
   # Projects
   include projects::puppet

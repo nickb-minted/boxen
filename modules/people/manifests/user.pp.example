@@ -1,0 +1,36 @@
+# Create a githubusername.pp
+# Important: if your GitHub username has a dash "-", change it to an
+# underscore in the filename and class definition!
+
+class people::username_minted {
+  $home     = "/Users/${::boxen_user}"
+
+  # change default shell to zsh with oh-my-zsh
+  include zsh
+  include ohmyzsh
+
+  # osx settings - see https://github.com/boxen/puppet-osx for more
+  include osx::dock::icon_size
+  # include osx::global::enable_keyboard_control_access
+  # include osx::global::expand_print_dialog
+  # include osx::global::expand_save_dialog
+  # include osx::global::disable_remote_control_ir_receiver
+  # include osx::global::disable_autocorrect
+  # include osx::dock::dim_hidden_apps
+  # include osx::finder::show_external_hard_drives_on_desktop
+  # include osx::finder::show_hard_drives_on_desktop
+  # include osx::finder::show_mounted_servers_on_desktop
+  # include osx::finder::show_removable_media_on_desktop
+  # include osx::finder::unhide_library
+  # include osx::finder::enable_quicklook_text_selection
+  # include osx::universal_access::ctrl_mod_zoom
+  # include osx::no_network_dsstores
+  # include osx::keyboard::capslock_to_control
+  # include osx::mouse::smart_zoom
+  # include osx::mouse::swipe_between_pages
+
+  # Example Sublime Text module
+  # sublime_text::package { 'Surround':
+  #   source => 'jcartledge/sublime-surround'
+  # }
+}

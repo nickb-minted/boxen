@@ -104,5 +104,7 @@ github 'vagrant',     '3.1.1'
 github 'virtualbox',  '1.0.13'
 github 'vlc',         '1.1.0'
 github 'wget',        '1.0.1'
+github 'zsh',         '1.0.0'
+github 'ohmyzsh',     '1.0.0', :repo => 'erivello/puppet-ohmyzsh'
 
 # TODO: fix and install: authy, viscoscity.
