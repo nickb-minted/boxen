@@ -1,0 +1,9 @@
+---
+# Create a githubusername.yaml
+
+# see https://github.com/boxen/puppet-osx for more
+# osx::dock::icon_size::size: 20
+# osx::global::key_repeat_delay::delay: 0
+# osx::global::key_repeat_rate::rate: 2
+# osx::global::natural_mouse_scrolling::enabled: false
+# osx::universal_access::cursor_size::zoom: 1
