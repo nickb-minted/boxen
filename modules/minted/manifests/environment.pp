@@ -30,7 +30,6 @@ class minted::environment {
   install_application{'chicken_of_the_vnc': dockicon => 'Chicken'}
   install_application{'chrome': dockicon => 'Google Chrome'}
   install_application{'clipmenu': dockicon => 'ClipMenu'}
-  install_application{'crashplan':}
   install_application{'dash': dockicon => 'Dash'}
   install_application{'divvy': dockicon => 'Divvy'}
   install_application{'dockutil':}
