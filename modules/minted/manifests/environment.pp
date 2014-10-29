@@ -66,12 +66,6 @@ class minted::environment {
   install_application{'vlc':}
   install_application{'wget':}
 
-  dockutil::item { "Add Activity Monitor":
-    item => '/Applications/Utilities/Activity Monitor.app/',
-    label => "Activity Monitor",
-    action => "add"
-  }
-
   Class['iterm2::stable'] -> Class['iterm2::colors::solarized_dark']
   Class['iterm2::stable'] -> Class['iterm2::colors::solarized_light']
   include iterm2::colors::solarized_light
