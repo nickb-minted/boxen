@@ -64,7 +64,6 @@ github 'charles',     '1.0.4'
 github 'chicken_of_the_vnc', '0.1.3'
 github 'chrome',      '1.1.2'
 github 'clipmenu',    '1.0.0'
-github 'crashplan',   '1.0.1'
 github 'dash',        '1.0.0'
 github 'divvy',       '1.0.1'
 github 'dockutil',    '0.2.1'
@@ -106,5 +105,7 @@ github 'vlc',         '1.1.0'
 github 'wget',        '1.0.1'
 github 'zsh',         '1.0.0'
 github 'ohmyzsh',     '1.0.0', :repo => 'erivello/puppet-ohmyzsh'
+github 'bartender',   '1.0.0'
+
 
 # TODO: fix and install: authy, viscoscity.

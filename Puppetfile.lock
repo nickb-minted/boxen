@@ -9,6 +9,11 @@ GITHUBTARBALL
     atom (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-bartender
+  specs:
+    bartender (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.7.0)
@@ -32,11 +37,6 @@ GITHUBTARBALL
   remote: boxen/puppet-clipmenu
   specs:
     clipmenu (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-crashplan
-  specs:
-    crashplan (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dash
@@ -341,12 +341,12 @@ GITHUBTARBALL
 DEPENDENCIES
   alfred (= 1.3.1)
   atom (= 1.0.0)
+  bartender (= 1.0.0)
   boxen (= 3.7.0)
   charles (= 1.0.4)
   chicken_of_the_vnc (= 0.1.3)
   chrome (= 1.1.2)
   clipmenu (= 1.0.0)
-  crashplan (= 1.0.1)
   dash (= 1.0.0)
   divvy (= 1.0.1)
   dnsmasq (= 2.0.0)
