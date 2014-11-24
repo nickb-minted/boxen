@@ -45,61 +45,61 @@ github "go",          "1.1.0"
 github "homebrew",    "1.9.6"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",       "1.4.3"
+github "nginx",       "1.4.4"
 github "nodejs",      "3.8.1"
 github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
 github "ruby",        "8.1.4"
-github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "stdlib",      "4.4.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github 'alfred',      '1.3.1'
-github 'atom',        '1.0.0'
+github 'alfred',      '1.4.0'
+github 'atom',        '1.1.0'
 github 'charles',     '1.0.4'
-github 'chicken_of_the_vnc', '0.1.3'
-github 'chrome',      '1.1.2'
+github 'chicken_of_the_vnc', '1.0.0'
+github 'chrome',      '1.2.0'
 github 'clipmenu',    '1.0.0'
 github 'dash',        '1.0.0'
 github 'divvy',       '1.0.1'
 github 'dockutil',    '0.2.1'
-github 'dropbox',     '1.4.0'
+github 'dropbox',     '1.4.1'
 github 'dterm',       '1.0.2'
 github 'emacs',       '1.3.0'
-github 'firefox',     '1.2.2'
+github 'firefox',     '1.2.3'
 github 'flux',        '1.0.1'
 github 'forklift',    '1.0.8'
 github 'github_for_mac', '1.0.3'
 github 'gitx',        '1.2.0'
 github 'hipchat',     '1.1.3'
 github 'induction',   '1.0.0'
-github 'iterm2',      '1.1.2'
+github 'iterm2',      '1.2.2'
 github 'java',        '1.7.1'
 github 'jmeter',      '0.1.4'
 github 'macvim',      '1.0.0'
-github 'mysql',       '1.2.1'
+github 'mysql',       '1.99.9'
 github 'nmap',        '1.0.3'
 github 'onyx',        '1.2.0'
 github 'open_refine', '1.0.0'
-github 'osx',         '2.7.0'
+github 'osx',         '2.8.0'
 github 'property_list_key', '0.1.0'
 github 'quicksilver', '1.3.0'
 github 'reggy',       '1.0.2'
 github 'sequel_pro',  '1.0.1'
 github 'silverlight', '1.0.1'
-github 'skitch',      '1.0.2'
+github 'skitch',      '1.0.3'
 github 'skype',       '1.0.9'
 github 'slate',       '1.0.1'
 github 'sourcetree',  '1.0.0'
-github 'sublime_text','1.0.1'
+github 'sublime_text','1.0.2'
 github 'tmux',        '1.0.2'
-github 'tower',       '1.0.0'
-github 'tunnelblick', '1.0.6'
-github 'vagrant',     '3.1.1'
+github 'tower',       '1.1.0'
+github 'tunnelblick', '1.0.7'
+github 'vagrant',     '3.2.0'
 github 'virtualbox',  '1.0.13'
 github 'vlc',         '1.1.0'
 github 'wget',        '1.0.1'
