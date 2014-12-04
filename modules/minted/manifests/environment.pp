@@ -123,6 +123,9 @@ class minted::environment {
     source => 'jcartledge/sublime-surround'
   }
 
+  # Add Vagrant Cachier plugin
+  vagrant::plugin { 'vagrant-cachier': }
+
   # Projects
   include projects::puppet
   # include projects::minted # some day.. :'(
