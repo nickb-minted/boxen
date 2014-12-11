@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chicken_of_the_vnc
   specs:
-    chicken_of_the_vnc (1.0.0)
+    chicken_of_the_vnc (0.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-jmeter
   specs:
-    jmeter (0.1.4)
+    jmeter (0.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -281,7 +281,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-tower
   specs:
-    tower (1.1.0)
+    tower (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-tunnelblick
@@ -344,7 +344,7 @@ DEPENDENCIES
   bartender (= 1.0.0)
   boxen (= 3.7.0)
   charles (= 1.0.4)
-  chicken_of_the_vnc (= 1.0.0)
+  chicken_of_the_vnc (= 0.1.2)
   chrome (= 1.2.0)
   clipmenu (= 1.0.0)
   dash (= 1.0.0)
@@ -370,7 +370,7 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (= 1.2.2)
   java (= 1.7.1)
-  jmeter (= 0.1.4)
+  jmeter (= 0.1.5)
   macvim (= 1.0.0)
   module_data (= 0.0.3)
   mysql (= 1.99.9)
@@ -399,7 +399,7 @@ DEPENDENCIES
   sublime_text (= 1.0.2)
   sudo (= 1.0.0)
   tmux (= 1.0.2)
-  tower (= 1.1.0)
+  tower (= 1.0.0)
   tunnelblick (= 1.0.7)
   vagrant (= 3.2.0)
   virtualbox (= 1.0.13)
