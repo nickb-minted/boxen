@@ -8,7 +8,9 @@ class people::jake_minted {
   # change default shell to zsh with oh-my-zsh
   include zsh
   include ohmyzsh
-
+  include better_touch_tools
+  include emacs
+  
   # osx settings - see https://github.com/boxen/puppet-osx for more
   include osx::dock::icon_size
   include osx::global::enable_keyboard_control_access
