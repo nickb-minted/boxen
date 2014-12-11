@@ -40,7 +40,7 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 github "dnsmasq",     "2.0.0"
 github "foreman",     "1.2.0"
 github "gcc",         "2.2.0"
-github "git",         "2.5.0"
+github "git",         "2.7.0"
 github "go",          "1.1.0"
 github "homebrew",    "1.9.6"
 github "hub",         "1.3.0"
@@ -60,6 +60,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 github 'alfred',      '1.4.0'
 github 'atom',        '1.1.0'
+github 'better_touch_tools', '3.0.0'
 github 'charles',     '1.0.4'
 github 'chicken_of_the_vnc', '0.1.2'
 github 'chrome',      '1.2.0'
