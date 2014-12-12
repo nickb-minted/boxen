@@ -10,6 +10,7 @@ class people::jake_minted {
   include ohmyzsh
   include better_touch_tools
   include emacs
+  include spotify
   
   # osx settings - see https://github.com/boxen/puppet-osx for more
   include osx::dock::icon_size
