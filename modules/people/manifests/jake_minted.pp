@@ -4,6 +4,8 @@
 
 class people::jake_minted {
   $home     = "/Users/${::boxen_user}"
+  $dotfiles = "${home}/dotfiles"
+  $dotemacs = "${home}/.emacs.d/"
 
   # change default shell to zsh with oh-my-zsh
   include zsh
@@ -17,4 +19,15 @@ class people::jake_minted {
   include osx::global::enable_keyboard_control_access
   include osx::keyboard::capslock_to_control
 
+  repository { $dotfiles:
+    source => 'jake-minted/dotfiles'
+  }
+
+  repository { $dotemacs:
+    source => 'grubernaut/emacs.d'
+  }
+
+  exec { "dotfiles" :
+    cwd     => "${dotfiles}",
+    command => "bash ${dotfiles}/dothething.sh"}
 }
