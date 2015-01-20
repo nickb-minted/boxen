@@ -78,9 +78,11 @@ github 'forklift',    '1.0.8'
 github 'github_for_mac', '1.0.3'
 github 'gitx',        '1.2.0'
 github 'hipchat',     '1.1.3'
-github 'induction',   '1.0.0'
+# this module is borken
+#github 'induction',   '1.0.0'
 github 'iterm2',      '1.2.2'
-github 'java',        '1.7.1'
+# 2.0 is almost out and will install java 1.8
+github 'java',        '1.8.0'
 github 'jmeter',      '0.1.5'
 github 'macvim',      '1.0.0'
 github 'mysql',       '1.99.9'
