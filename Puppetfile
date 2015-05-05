@@ -111,6 +111,7 @@ github 'wget',        '1.0.1'
 github 'zsh',         '1.0.0'
 github 'ohmyzsh',     '1.0.0', :repo => 'erivello/puppet-ohmyzsh'
 github 'bartender',   '1.0.0'
+github 'vmware_fusion', '1.2.0'
 
 
 # TODO: fix and install: authy, viscoscity.
