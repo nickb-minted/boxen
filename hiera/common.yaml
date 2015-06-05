@@ -1,3 +1,6 @@
 ---
 vagrant::version: '1.6.5'
 vagrant::completion: true
+
+# add for config mysql socket datadir. useful link: https://github.com/boxen/puppet-mysql/issues/49
+mysql::socket: "%{::boxen::config::datadir}/mysql/socket"
