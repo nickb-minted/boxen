@@ -82,7 +82,7 @@ github 'hipchat',     '1.1.3'
 #github 'induction',   '1.0.0'
 github 'iterm2',      '1.2.2'
 # 2.0 is almost out and will install java 1.8
-github 'java',        '1.8.0'
+github 'java',        '1.8.3'
 github 'jmeter',      '0.1.5'
 github 'macvim',      '1.0.0'
 github 'mysql',       '1.99.9'
