@@ -40,10 +40,10 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 github "brewcask",    "0.0.4"
 github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
-github "gcc",         "2.2.0"
-github "git",         "2.7.1"
+github "gcc",         "2.2.2"
+github "git",         "2.7.91"
 github "go",          "2.1.0"
-github "homebrew",    "1.11.2"
+github "homebrew",    "1.13.0"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.4"
@@ -59,7 +59,7 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github 'alfred',      '1.4.0'
+github 'alfred',      '1.5.0'
 github 'atom',        '1.1.0'
 github 'better_touch_tools', '3.0.0'
 github 'charles',     '1.0.4'
