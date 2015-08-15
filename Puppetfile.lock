@@ -114,11 +114,6 @@ GITHUBTARBALL
     git (2.7.91)
 
 GITHUBTARBALL
-  remote: boxen/puppet-github_for_mac
-  specs:
-    github_for_mac (1.0.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-gitx
   specs:
     gitx (1.2.0)
@@ -377,7 +372,6 @@ DEPENDENCIES
   forklift (= 1.0.8)
   gcc (= 2.2.2)
   git (= 2.7.91)
-  github_for_mac (= 1.0.3)
   gitx (= 1.2.0)
   go (= 2.1.0)
   hipchat (= 1.1.3)
@@ -425,4 +419,3 @@ DEPENDENCIES
   wget (= 1.0.1)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
-

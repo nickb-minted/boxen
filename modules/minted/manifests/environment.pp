@@ -36,7 +36,6 @@ class minted::environment {
   install_application{'firefox': dockicon => 'Firefox'}
   install_application{'flux':}
   install_application{'forklift':}
-  install_application{'github_for_mac': dockicon => 'GitHub'}
   install_application{'gitx':}
   install_application{'hipchat': dockicon => 'HipChat'}
   install_application{'iterm2::stable': dockicon => 'iTerm'}

@@ -75,7 +75,6 @@ github 'emacs',       '1.3.0'
 github 'firefox',     '1.2.3'
 github 'flux',        '1.0.1'
 github 'forklift',    '1.0.8'
-github 'github_for_mac', '1.0.3'
 github 'gitx',        '1.2.0'
 github 'hipchat',     '1.1.3'
 # this module is borken
